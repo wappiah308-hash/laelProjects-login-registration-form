@@ -30,7 +30,6 @@ header {
 }
 
 .logo {
-    font-family: 'Poppins', 'sans-serif';
     font-size: 2em;
     font-weight: 400;
     color: white;
@@ -258,6 +257,7 @@ header {
     text-decoration: underline;
 
 }
+
 
 
 
