@@ -274,9 +274,6 @@ header {
     display: none;
 }
 
-.menu-icon.erase-menu-icon {
-    transform: scale(0);
-}
 
 .menu-popup {
     display: none;
@@ -335,8 +332,11 @@ header {
 
 /* ======================== MEDIA QUERIES (iphone 14) ======================= */
 @media screen and (max-width: 390px) {
-    .header {
-        padding: 0;
+    header {
+        padding: 20px 20px;
+    }
+    .logo {
+       font-size: 1.5em;
     }
     .wrapper {
         width: 350px;
@@ -350,7 +350,18 @@ header {
         width: 60px;
         height: 20px;
     }
-    
+
+    .menu-icon{
+        display: inline-flex;
+    }
+
+    .menu-popup {
+        display: block;
+    }
+
+    .menu-icon {
+        font-size: 2rem;
+    }
 
 }
 
