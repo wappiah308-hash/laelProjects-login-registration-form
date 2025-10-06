@@ -21,6 +21,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     padding: 20px 100px;
     display: flex;
@@ -30,7 +31,7 @@ header {
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     color: white;
     user-select: none;
@@ -276,6 +277,7 @@ header {
         height: 30px
     }
 }
+
 
 
 
