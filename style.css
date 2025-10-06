@@ -260,8 +260,15 @@ header {
 
 /* ======================== MEDIA QUERIES (Medium) ======================= */
 @media screen and (max-width: 390px) {
+    .header {
+        padding: 0;
+    }
     .wrapper {
         width: 350px;
+    }
+
+    .navigation a {
+        margin-left: 5px 5px;
     }
 
     .navigation .btnLogin-popup {
@@ -269,6 +276,7 @@ header {
         height: 30px
     }
 }
+
 
 
 
