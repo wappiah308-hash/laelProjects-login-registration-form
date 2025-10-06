@@ -268,7 +268,7 @@ header {
     }
 
     .navigation a {
-        margin-left: 5px 5px;
+        display: none;
     }
 
     .navigation .btnLogin-popup {
@@ -276,6 +276,7 @@ header {
         height: 30px
     }
 }
+
 
 
 
